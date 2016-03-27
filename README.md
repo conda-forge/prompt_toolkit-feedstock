@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstoc
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt_toolkit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt_toolkit-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prompt_toolkit/badges/version.svg)](https://anaconda.org/conda-forge/prompt_toolkit)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prompt_toolkit/badges/downloads.svg)](https://anaconda.org/conda-forge/prompt_toolkit)
+
 
 Updating prompt_toolkit-feedstock
 =================================
