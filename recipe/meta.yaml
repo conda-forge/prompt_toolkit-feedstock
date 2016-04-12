@@ -1,11 +1,13 @@
+{% set version = "0.60" %}
+
 package:
     name: prompt_toolkit
-    version: "0.54"
+    version: "{{ version }}"
 
 source:
-    fn: prompt_toolkit-0.54.tar.gz
-    url: https://pypi.python.org/packages/source/p/prompt_toolkit/prompt_toolkit-0.54.tar.gz
-    md5: c9b83f8ddc2d887aca78a10779aff623
+    fn: prompt_toolkit-{{ version }}.tar.gz
+    url: https://pypi.python.org/packages/source/p/prompt_toolkit/prompt_toolkit-{{ version }}.tar.gz
+    md5: 516826aff6a09536037b6d02a9a3451d
 
 build:
     number: 0
@@ -44,3 +46,4 @@ about:
 extra:
     recipe-maintainers:
         - ocefpaf
+        - scopatz
