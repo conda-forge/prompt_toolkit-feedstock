@@ -6,7 +6,7 @@ package:
 
 source:
     fn: {{ version }}.tar.gz
-    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/1.0.0.tar.gz
+    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/{{ version }}.tar.gz
     sha256: 35a7ae49d5f654ac3f8d1619572ff0ec37403c230399819cef962426b560a047
 
 build:
