@@ -3,7 +3,7 @@ About prompt_toolkit
 
 Home: https://github.com/jonathanslenders/python-prompt-toolkit
 
-Package license: LICENSE.txt
+Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 
@@ -69,9 +69,10 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt_toolkit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt_toolkit-feedstock/branch/master)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt-toolkit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt-toolkit-feedstock/branch/master)
 
 Current release info
 ====================
