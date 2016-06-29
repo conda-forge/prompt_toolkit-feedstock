@@ -1,13 +1,13 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.3" %}
 
 package:
     name: prompt_toolkit
     version: "{{ version }}"
 
 source:
-    fn: {{ version }}.tar.gz
-    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/{{ version }}.tar.gz
-    sha256: 35a7ae49d5f654ac3f8d1619572ff0ec37403c230399819cef962426b560a047
+    fn: python-prompt-toolkit-aa476e255be606edbf2287bfa978fe6aad2e9daa.tar.gz
+    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/aa476e255be606edbf2287bfa978fe6aad2e9daa.tar.gz
+    sha1: 212559aa239d8a3ae2cfc06e7f26bb49e8e9ad3f
 
 build:
     script: python setup.py install --single-version-externally-managed --record=record.txt
