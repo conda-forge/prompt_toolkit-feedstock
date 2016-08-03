@@ -1,13 +1,14 @@
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
+{% set sha256 = "731325b7dae69c71a6e4412b12521e1b4d43316a345e7f14fcc14586f08f7e71" %}
 
 package:
     name: prompt_toolkit
     version: "{{ version }}"
 
 source:
-    fn: python-prompt-toolkit-aa476e255be606edbf2287bfa978fe6aad2e9daa.tar.gz
-    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/aa476e255be606edbf2287bfa978fe6aad2e9daa.tar.gz
-    sha1: 212559aa239d8a3ae2cfc06e7f26bb49e8e9ad3f
+    fn: python-prompt-toolkit-{{ version }}.tar.gz
+    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/{{ version }}.tar.gz
+    sha256: {{ sha256 }}
 
 build:
     script: python setup.py install --single-version-externally-managed --record=record.txt
