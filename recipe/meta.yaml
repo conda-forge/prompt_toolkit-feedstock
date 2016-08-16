@@ -2,50 +2,50 @@
 {% set sha256 = "c8459c15b75a65f2f468fd0a372cf3bc2262262fd6277054de7c2029bff64678" %}
 
 package:
-    name: prompt_toolkit
-    version: {{ version }}
+  name: prompt_toolkit
+  version: {{ version }}
 
 source:
-    fn: python-prompt-toolkit-{{ version }}.tar.gz
-    url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+  fn: python-prompt-toolkit-{{ version }}.tar.gz
+  url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - pygments
-        - six >=1.9.0
-        - wcwidth
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - pygments
+    - six >=1.9.0
+    - wcwidth
 
 test:
-    imports:
-        - prompt_toolkit
-        - prompt_toolkit.clipboard
-        - prompt_toolkit.contrib
-        - prompt_toolkit.contrib.completers
-        - prompt_toolkit.contrib.regular_languages
-        - prompt_toolkit.contrib.telnet  # [not win]
-        - prompt_toolkit.contrib.validators
-        - prompt_toolkit.eventloop
-        - prompt_toolkit.filters
-        - prompt_toolkit.key_binding
-        - prompt_toolkit.key_binding.bindings
-        - prompt_toolkit.layout
-        - prompt_toolkit.terminal
+  imports:
+    - prompt_toolkit
+    - prompt_toolkit.clipboard
+    - prompt_toolkit.contrib
+    - prompt_toolkit.contrib.completers
+    - prompt_toolkit.contrib.regular_languages
+    - prompt_toolkit.contrib.telnet  # [not win]
+    - prompt_toolkit.contrib.validators
+    - prompt_toolkit.eventloop
+    - prompt_toolkit.filters
+    - prompt_toolkit.key_binding
+    - prompt_toolkit.key_binding.bindings
+    - prompt_toolkit.layout
+    - prompt_toolkit.terminal
 
 about:
-    home: https://github.com/jonathanslenders/python-prompt-toolkit
-    license: BSD 3-clause
-    summary: Library for building powerful interactive command lines in Python
+  home: https://github.com/jonathanslenders/python-prompt-toolkit
+  license: BSD 3-clause
+  summary: Library for building powerful interactive command lines in Python
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
-        - scopatz
+  recipe-maintainers:
+    - ocefpaf
+    - scopatz
