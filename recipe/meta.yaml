@@ -1,6 +1,6 @@
 {% set name = "prompt_toolkit" %}
-{% set version = "1.0.6" %}
-{% set sha256 = "5f50fb700bcd1c820b4d135c3fa84d7e94ffd6dc7b2766a15215bdc810aa4f07" %}
+{% set version = "1.0.7" %}
+{% set sha256 = "6969e90c0ca460ab8ca9d12f784d1f88970ee925ca2968f758c233991bc7017e" %}
 
 package:
   name: {{ name }}
