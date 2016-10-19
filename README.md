@@ -9,6 +9,9 @@ Feedstock license: BSD 3-Clause
 
 Summary: Library for building powerful interactive command lines in Python
 
+prompt_toolkit is a library for building powerful interactive command
+lines and terminal applications in Python. It can be a pure Python
+replacement for GNU readline, but it can be much more than that.
 
 
 Installing prompt_toolkit
