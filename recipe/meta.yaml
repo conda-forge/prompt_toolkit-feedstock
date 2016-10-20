@@ -1,14 +1,14 @@
 {% set name = "prompt_toolkit" %}
-{% set version = "1.0.7" %}
-{% set sha256 = "6969e90c0ca460ab8ca9d12f784d1f88970ee925ca2968f758c233991bc7017e" %}
+{% set version = "1.0.8" %}
+{% set sha256 = "b686ff216fc016dcbdf9ddf18d0ded480457213886ed4cda9fbc21002d18be54" %}
 
 package:
-  name: {{ name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/jonathanslenders/python-prompt-toolkit/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -44,7 +44,14 @@ test:
 about:
   home: https://github.com/jonathanslenders/python-prompt-toolkit
   license: BSD 3-clause
+  license_file: LICENSE
   summary: Library for building powerful interactive command lines in Python
+  description: |
+    prompt_toolkit is a library for building powerful interactive command 
+    lines and terminal applications in Python. It can be a pure Python 
+    replacement for GNU readline, but it can be much more than that.
+  doc_url: http://python-prompt-toolkit.readthedocs.io
+  dev_url: https://github.com/jonathanslenders/python-prompt-toolkit
 
 extra:
   recipe-maintainers:
