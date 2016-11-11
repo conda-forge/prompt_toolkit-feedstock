@@ -36,7 +36,6 @@ conda search prompt_toolkit --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
