@@ -36,7 +36,6 @@ conda search prompt_toolkit --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
@@ -74,9 +73,9 @@ Terminology
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt_toolkit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt-toolkit-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock - Copy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock - Copy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock - Copy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock - Copy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt_toolkit-feedstock - Copy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt-toolkit-feedstock - Copy-feedstock/branch/master)
 
 Current release info
 ====================
