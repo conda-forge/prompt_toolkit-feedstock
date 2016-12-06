@@ -14,6 +14,18 @@ lines and terminal applications in Python. It can be a pure Python
 replacement for GNU readline, but it can be much more than that.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt_toolkit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt-toolkit-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prompt_toolkit/badges/version.svg)](https://anaconda.org/conda-forge/prompt_toolkit)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prompt_toolkit/badges/downloads.svg)](https://anaconda.org/conda-forge/prompt_toolkit)
+
 Installing prompt_toolkit
 =========================
 
@@ -69,18 +81,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prompt_toolkit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prompt-toolkit-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prompt_toolkit/badges/version.svg)](https://anaconda.org/conda-forge/prompt_toolkit)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prompt_toolkit/badges/downloads.svg)](https://anaconda.org/conda-forge/prompt_toolkit)
 
 
 Updating prompt_toolkit-feedstock
