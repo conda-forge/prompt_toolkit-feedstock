@@ -1,6 +1,6 @@
 {% set name = "prompt_toolkit" %}
-{% set version = "1.0.15" %}
-{% set sha256 = "858588f1983ca497f1cf4ffde01d978a3ea02b01c8a26a8bbc5cd2e66d816917" %}
+{% set version = "2.0.2" %}
+{% set sha256 = "33cd9b986f1732f720666d6b412f1cb071a92743c5a61cfc3f39dee39248241b" %}
 
 package:
   name: {{ name|lower }}
@@ -32,13 +32,11 @@ test:
     - prompt_toolkit.contrib.completers
     - prompt_toolkit.contrib.regular_languages
     - prompt_toolkit.contrib.telnet  # [not win]
-    - prompt_toolkit.contrib.validators
     - prompt_toolkit.eventloop
     - prompt_toolkit.filters
     - prompt_toolkit.key_binding
     - prompt_toolkit.key_binding.bindings
     - prompt_toolkit.layout
-    - prompt_toolkit.terminal
 
 about:
   home: https://github.com/jonathanslenders/python-prompt-toolkit
