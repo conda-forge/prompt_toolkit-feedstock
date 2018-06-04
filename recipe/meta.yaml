@@ -37,7 +37,6 @@ test:
     - prompt_toolkit.key_binding
     - prompt_toolkit.key_binding.bindings
     - prompt_toolkit.layout
-    - prompt_toolkit.terminal
 
 about:
   home: https://github.com/jonathanslenders/python-prompt-toolkit
