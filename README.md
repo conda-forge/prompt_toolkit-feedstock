@@ -17,9 +17,8 @@ replacement for GNU readline, but it can be much more than that.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/prompt_toolkit-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/prompt_toolkit-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/prompt_toolkit-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/prompt_toolkit-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/prompt-toolkit-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/prompt_toolkit-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
 
 Current release info
 ====================
