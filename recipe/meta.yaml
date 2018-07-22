@@ -1,6 +1,6 @@
 {% set name = "prompt_toolkit" %}
-{% set version = "2.0.3" %}
-{% set sha256 = "d9ea14304a2633e4b40dde874c63da6b94a075f61e837011e035ffcd5bb39a1d" %}
+{% set version = "2.0.4" %}
+{% set sha256 = "ff58ce8bb82c11c43416dd3eec7701dcbe8c576e2d7649f1d2b9d21a2fd93808" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,6 @@ test:
     - prompt_toolkit.contrib
     - prompt_toolkit.contrib.completers
     - prompt_toolkit.contrib.regular_languages
-    - prompt_toolkit.contrib.telnet  # [not win]
     - prompt_toolkit.eventloop
     - prompt_toolkit.filters
     - prompt_toolkit.key_binding
