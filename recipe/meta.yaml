@@ -31,7 +31,6 @@ test:
     - prompt_toolkit.contrib
     - prompt_toolkit.contrib.completers
     - prompt_toolkit.contrib.regular_languages
-    - prompt_toolkit.contrib.telnet  # [not win]
     - prompt_toolkit.eventloop
     - prompt_toolkit.filters
     - prompt_toolkit.key_binding
