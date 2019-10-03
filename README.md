@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About prompt_toolkit
 ====================
 
@@ -21,8 +17,15 @@ replacement for GNU readline, but it can be much more than that.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/prompt_toolkit-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/prompt_toolkit-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5969&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/prompt_toolkit-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
