@@ -3,7 +3,7 @@ About prompt_toolkit
 
 Home: https://github.com/jonathanslenders/python-prompt-toolkit
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
