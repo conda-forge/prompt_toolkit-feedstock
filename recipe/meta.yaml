@@ -1,46 +1,63 @@
-{% set version = "3.0.3" %}
+{% set version = "3.0.4" %}
 
 package:
-  name: prompt_toolkit
+  name: prompt-toolkit
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-{{ version }}.tar.gz
-  sha256: a402e9bf468b63314e37460b68ba68243d55b2f8c4d0192f85a019af3945050e
+  sha256: ebe6b1b08c888b84c50d7f93dee21a09af39860144ff6130aadbd61ae8d29783
 
 build:
   number: 0
-  noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
-requirements:
-  host:
-    - python >=3.6
-    - pip
-  run:
-    - python >=3.6
-    - pygments
-    - six >=1.9.0
-    - wcwidth
+outputs:
+  - name: prompt-toolkit
+    build:
+      noarch: python
+    script: build_base.bat  # [win]
+    script: build_base.sh  # [not win]
+    requirements:
+      host:
+        - python >=3.6
+        - pip
+      run:
+        - python >=3.6
+        - pygments
+        - six >=1.9.0
+        - wcwidth
+    test:
+      requires:
+        - pip
+      commands:
+        - pip check
+      imports:
+        - prompt_toolkit
+        - prompt_toolkit.clipboard
+        - prompt_toolkit.contrib
+        - prompt_toolkit.contrib.completers
+        - prompt_toolkit.contrib.regular_languages
+        - prompt_toolkit.eventloop
+        - prompt_toolkit.filters
+        - prompt_toolkit.key_binding
+        - prompt_toolkit.key_binding.bindings
+        - prompt_toolkit.layout
 
-test:
-  imports:
-    - prompt_toolkit
-    - prompt_toolkit.clipboard
-    - prompt_toolkit.contrib
-    - prompt_toolkit.contrib.completers
-    - prompt_toolkit.contrib.regular_languages
-    - prompt_toolkit.eventloop
-    - prompt_toolkit.filters
-    - prompt_toolkit.key_binding
-    - prompt_toolkit.key_binding.bindings
-    - prompt_toolkit.layout
+  - name: prompt_toolkit
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - {{ pin_subpackage('prompt-toolkit', max_pin="x.x.x") }}
+    test:
+      imports:
+        - prompt_toolkit
 
 about:
   home: https://github.com/jonathanslenders/python-prompt-toolkit
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: "Library for building powerful interactive command lines in Python"
+  summary: Library for building powerful interactive command lines in Python
   description: |
     prompt_toolkit is a library for building powerful interactive command
     lines and terminal applications in Python. It can be a pure Python
