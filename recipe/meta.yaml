@@ -24,6 +24,10 @@ requirements:
     - wcwidth
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - prompt_toolkit
     - prompt_toolkit.clipboard
