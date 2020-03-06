@@ -1,4 +1,4 @@
-{% set version = "3.0.3" %}
+{% set version = "3.0.4" %}
 
 package:
   name: prompt_toolkit
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-{{ version }}.tar.gz
-  sha256: a402e9bf468b63314e37460b68ba68243d55b2f8c4d0192f85a019af3945050e
+  sha256: ebe6b1b08c888b84c50d7f93dee21a09af39860144ff6130aadbd61ae8d29783
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   home: https://github.com/jonathanslenders/python-prompt-toolkit
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: "Library for building powerful interactive command lines in Python"
+  summary: Library for building powerful interactive command lines in Python
   description: |
     prompt_toolkit is a library for building powerful interactive command
     lines and terminal applications in Python. It can be a pure Python
