@@ -9,7 +9,7 @@ source:
   sha256: 563d1a4140b63ff9dd587bda9557cffb2fe73650205ab6f4383092fb882e7dc8
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: prompt-toolkit
@@ -26,6 +26,8 @@ outputs:
         - pygments
         - six >=1.9.0
         - wcwidth
+      run_constrained:
+        - prompt_toolkit {{ version }}
     test:
       requires:
         - pip
