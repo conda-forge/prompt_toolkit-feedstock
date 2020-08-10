@@ -24,7 +24,6 @@ outputs:
       run:
         - python >=3.6
         - pygments
-        - six >=1.9.0
         - wcwidth
       run_constrained:
         - prompt_toolkit {{ version }}
