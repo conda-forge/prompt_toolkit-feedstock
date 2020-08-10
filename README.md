@@ -5,7 +5,7 @@ Home: https://github.com/jonathanslenders/python-prompt-toolkit
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Library for building powerful interactive command lines in Python
 
