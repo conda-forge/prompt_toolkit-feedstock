@@ -5,9 +5,13 @@ Home: https://github.com/jonathanslenders/python-prompt-toolkit
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prompt_toolkit-feedstock/blob/master/LICENSE.txt)
 
 Summary: Library for building powerful interactive command lines in Python
+
+Development: https://github.com/jonathanslenders/python-prompt-toolkit
+
+Documentation: http://python-prompt-toolkit.readthedocs.io
 
 prompt_toolkit is a library for building powerful interactive command
 lines and terminal applications in Python. It can be a pure Python
