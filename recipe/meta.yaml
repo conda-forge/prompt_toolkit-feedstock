@@ -26,7 +26,6 @@ outputs:
         - pip
       run:
         - python >=3.6
-        - pygments
         - wcwidth
       run_constrained:
         - prompt_toolkit {{ version }}
