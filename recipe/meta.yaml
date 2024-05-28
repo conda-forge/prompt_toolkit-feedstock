@@ -1,4 +1,4 @@
-{% set version = "3.0.42" %}
+{% set version = "3.0.45" %}
 
 package:
   name: prompt-toolkit
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-{{ version }}.tar.gz
-  sha256: bfbf7d6ea9744e4ec94c9a69539e8106c77a2a607d728ded87c9182a4aec39be
+  sha256: 07c60ee4ab7b7e90824b61afa840c8f5aad2d46b3e2e10acc33d8ecc94a49089
 
 build:
   number: 0
