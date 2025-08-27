@@ -37,7 +37,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-prompt--toolkit-green.svg)](https://anaconda.org/conda-forge/prompt-toolkit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/prompt-toolkit.svg)](https://anaconda.org/conda-forge/prompt-toolkit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/prompt-toolkit.svg)](https://anaconda.org/conda-forge/prompt-toolkit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/prompt-toolkit.svg)](https://anaconda.org/conda-forge/prompt-toolkit) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-prompt_toolkit-green.svg)](https://anaconda.org/conda-forge/prompt_toolkit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/prompt_toolkit.svg)](https://anaconda.org/conda-forge/prompt_toolkit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/prompt_toolkit.svg)](https://anaconda.org/conda-forge/prompt_toolkit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/prompt_toolkit.svg)](https://anaconda.org/conda-forge/prompt_toolkit) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-prompt__toolkit-green.svg)](https://anaconda.org/conda-forge/prompt_toolkit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/prompt_toolkit.svg)](https://anaconda.org/conda-forge/prompt_toolkit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/prompt_toolkit.svg)](https://anaconda.org/conda-forge/prompt_toolkit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/prompt_toolkit.svg)](https://anaconda.org/conda-forge/prompt_toolkit) |
 
 Installing prompt-toolkit
 =========================
